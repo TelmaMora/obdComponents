@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=test.aar" 
+  - mvn install:install-file $FILE -DgroupId=test.obdcomponents -DartifactId=obdComponents -Dversion=0.0.1 -Dpackaging=aar -DgeneratePom=true
